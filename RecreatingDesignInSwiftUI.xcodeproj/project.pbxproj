@@ -17,6 +17,8 @@
 		CF9E8C3425F3236A00B8D085 /* KulMobile+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C3325F3236A00B8D085 /* KulMobile+Font.swift */; };
 		CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C3825F325BC00B8D085 /* KulMobile+Color.swift */; };
 		CF9E8C3E25F3E5E300B8D085 /* Staatliches-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8C3D25F3E5E300B8D085 /* Staatliches-Regular.ttf */; };
+		CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */; };
+		CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C4725F4025600B8D085 /* KulMobileSearchBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,8 @@
 		CF9E8C3325F3236A00B8D085 /* KulMobile+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KulMobile+Font.swift"; sourceTree = "<group>"; };
 		CF9E8C3825F325BC00B8D085 /* KulMobile+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KulMobile+Color.swift"; sourceTree = "<group>"; };
 		CF9E8C3D25F3E5E300B8D085 /* Staatliches-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Staatliches-Regular.ttf"; path = "../../../../../../../Documents/Art/app_design/references/Kul_Mobile/Staatliches/Staatliches-Regular.ttf"; sourceTree = "<group>"; };
+		CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidsList.swift; sourceTree = "<group>"; };
+		CF9E8C4725F4025600B8D085 /* KulMobileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileSearchBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,6 +156,8 @@
 			isa = PBXGroup;
 			children = (
 				CF9E8C1025F3222C00B8D085 /* KulMobileHomeView.swift */,
+				CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */,
+				CF9E8C4F25F409CE00B8D085 /* Subview */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -164,6 +170,14 @@
 				CF9E8C3D25F3E5E300B8D085 /* Staatliches-Regular.ttf */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CF9E8C4F25F409CE00B8D085 /* Subview */ = {
+			isa = PBXGroup;
+			children = (
+				CF9E8C4725F4025600B8D085 /* KulMobileSearchBar.swift */,
+			);
+			path = Subview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -298,9 +312,11 @@
 			files = (
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
 				CF9E8C3425F3236A00B8D085 /* KulMobile+Font.swift in Sources */,
+				CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */,
 				CF9E8C1C25F322A900B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
+				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

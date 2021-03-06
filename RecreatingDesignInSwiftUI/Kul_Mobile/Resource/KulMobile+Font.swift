@@ -22,4 +22,5 @@ private let family = "Superclarendon"
 extension Font {
     static func kmRegular(size: CGFloat) -> Font { .custom("\(family)-Regular", size: size) }
     static func kmBold(size: CGFloat) -> Font { .custom("\(family)-Bold", size: size) }
+    static func kmSecondaryRegular(size: CGFloat) -> Font { .custom("Staatliches-Regular", size: size) }
 }

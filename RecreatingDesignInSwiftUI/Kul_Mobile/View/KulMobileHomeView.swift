@@ -9,11 +9,16 @@ import SwiftUI
 
 struct KulMobileHomeView: View {
     var body: some View {
-        VStack {
-            Text("Basic Teen Culture")
-                .font(.kmBold(size: 72))
+        ZStack {
+            Color.kmPurple.edgesIgnoringSafeArea(.all)
             
-            Spacer()
+            VStack {
+                Text("Basic Teen Culture")
+                    .font(.kmBold(size: 72))
+                    .foregroundColor(.kmLightTan)
+                
+                Spacer()
+            }
         }
     }
 }

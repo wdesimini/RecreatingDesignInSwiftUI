@@ -9,12 +9,19 @@ import SwiftUI
 
 struct KulMobileHomeView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Text("Basic Teen Culture")
+                .font(.kmBold(size: 72))
+            
+            Spacer()
+        }
     }
 }
 
 struct KulMobileHomeView_Previews: PreviewProvider {
     static var previews: some View {
-        KulMobileHomeView()
+        NavigationView {
+            KulMobileHomeView()
+        }
     }
 }

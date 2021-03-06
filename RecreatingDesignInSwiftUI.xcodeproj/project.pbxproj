@@ -13,6 +13,7 @@
 		CF9E8BEA25F321DC00B8D085 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE925F321DC00B8D085 /* Preview Assets.xcassets */; };
 		CF9E8BF525F321DC00B8D085 /* RecreatingDesignInSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BF425F321DC00B8D085 /* RecreatingDesignInSwiftUITests.swift */; };
 		CF9E8C0025F321DC00B8D085 /* RecreatingDesignInSwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BFF25F321DC00B8D085 /* RecreatingDesignInSwiftUIUITests.swift */; };
+		CF9E8C1125F3222C00B8D085 /* KulMobileHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C1025F3222C00B8D085 /* KulMobileHomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CF9E8BFB25F321DC00B8D085 /* RecreatingDesignInSwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecreatingDesignInSwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BFF25F321DC00B8D085 /* RecreatingDesignInSwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIUITests.swift; sourceTree = "<group>"; };
 		CF9E8C0125F321DC00B8D085 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF9E8C1025F3222C00B8D085 /* KulMobileHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileHomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */,
 				CF9E8BE425F321D900B8D085 /* ContentView.swift */,
+				CF9E8C1525F3223400B8D085 /* Kul_Mobile */,
 				CF9E8BE625F321DC00B8D085 /* Assets.xcassets */,
 				CF9E8BEB25F321DC00B8D085 /* Info.plist */,
 				CF9E8BE825F321DC00B8D085 /* Preview Content */,
@@ -128,6 +131,14 @@
 				CF9E8C0125F321DC00B8D085 /* Info.plist */,
 			);
 			path = RecreatingDesignInSwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		CF9E8C1525F3223400B8D085 /* Kul_Mobile */ = {
+			isa = PBXGroup;
+			children = (
+				CF9E8C1025F3222C00B8D085 /* KulMobileHomeView.swift */,
+			);
+			path = Kul_Mobile;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
+				CF9E8C1125F3222C00B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

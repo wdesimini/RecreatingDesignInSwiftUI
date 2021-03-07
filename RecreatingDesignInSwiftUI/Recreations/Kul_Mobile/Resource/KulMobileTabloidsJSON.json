@@ -1,17 +1,17 @@
 [
     {
         "id": 1,
-        "category": "News",
+        "category": "news",
         "headline": "How Important is School? Story of Thousands"
     },
     {
         "id": 2,
-        "category": "Fashion",
+        "category": "fashion",
         "headline": "Retail Stores Embracing the Body Positive Movement"
     },
     {
         "id": 3,
-        "category": "Entertainment",
+        "category": "entertainment",
         "headline": "Rebellious Traits Making Billie Eilish a Iconic Feminist"
     }
 ]

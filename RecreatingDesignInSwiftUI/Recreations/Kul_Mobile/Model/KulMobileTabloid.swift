@@ -9,6 +9,6 @@ import Foundation
 
 struct KulMobileTabloid: Decodable, Identifiable {
     let id: Int
-    let category: String
+    let category: Category
     let headline: String
 }

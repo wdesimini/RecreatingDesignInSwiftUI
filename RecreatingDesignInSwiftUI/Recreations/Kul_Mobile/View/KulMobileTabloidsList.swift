@@ -21,10 +21,12 @@ struct KulMobileTabloidsList: View {
     private var filteredTabloids: [KulMobileTabloid] {
         var result = dataService.tabloids
         
+        let lowercasedSearchText = searchText.lowercased()
+        
         if !searchText.isEmpty {
             result = result.filter {
-                $0.category.contains(searchText)
-                || $0.headline.contains(searchText)
+                $0.category.rawValue.lowercased().contains(lowercasedSearchText)
+                || $0.headline.lowercased().contains(lowercasedSearchText)
             }
         }
         

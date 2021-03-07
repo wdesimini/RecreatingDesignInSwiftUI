@@ -18,7 +18,7 @@ struct KulMobileTabloidListItem: View {
             
             HStack {
                 VStack(alignment: .leading, spacing: 18) {
-                    Text(tabloid.category)
+                    Text(tabloid.category.rawValue)
                         .font(.kmSecondaryRegular(size: 17))
                     
                     Text(tabloid.headline)
@@ -37,7 +37,7 @@ struct KulMobileTabloidListItem: View {
 struct KulMobileTabloidListItem_Previews: PreviewProvider {
     static let tabloid = KulMobileTabloid(
         id: 1,
-        category: "Category",
+        category: .news,
         headline: "This is the Headline. It's one or two brief sentences."
     )
     

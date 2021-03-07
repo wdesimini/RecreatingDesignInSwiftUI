@@ -16,9 +16,6 @@ class KulMobileTabloidDataService: ObservableObject {
                let data = try String(contentsOfFile: bundlePath).data(using: .utf8)
             {
                 tabloids = try JSONDecoder().decode([KulMobileTabloid].self, from: data)
-                
-                print("decoded tabloids")
-                print(tabloids)
             }
         } catch {
             print(error)

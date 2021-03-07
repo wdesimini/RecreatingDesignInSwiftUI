@@ -7,6 +7,8 @@
 
 import SwiftUI
 
+// reference - https://dribbble.com/shots/15237805-Kul-Mobile
+
 struct KulMobileAppView: View {
     @State private var isShowingTabloids = false
     

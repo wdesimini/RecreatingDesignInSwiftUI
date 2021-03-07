@@ -38,24 +38,21 @@ struct KulMobileHomeView: View {
                 }
                 .padding()
             }
-            .toolbar(content: {
-                ToolbarItem(placement: .navigationBarTrailing) {
-                    Button(action: {
-                        print("2 dots tapped")
-                    }, label: {
-                        Image("Kul-Mobile_settings_icon")
-                    })
-                }
-            })
         }
-        .navigationBarItems(leading: Button(action: {
-            print("2 dots tapped")
-        }, label: {
-            Text("KUL!")
-                .font(.kmSecondaryRegular(size: 42))
-                .foregroundColor(.kmYellow)
-                .rotationEffect(.degrees(-14))
-        }))
+        .navigationBarItems(
+            leading: Button(action: {
+                print("2 dots tapped")
+            }, label: {
+                Text("KUL!")
+                    .font(.kmSecondaryRegular(size: 42))
+                    .foregroundColor(.kmYellow)
+                    .rotationEffect(.degrees(-14))
+            }),
+            trailing: Button(action: {
+                print("2 dots tapped")
+            }, label: {
+                Image("Kul-Mobile_settings_icon")
+            }))
     }
 }
 

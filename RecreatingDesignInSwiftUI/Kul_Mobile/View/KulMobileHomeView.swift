@@ -40,17 +40,13 @@ struct KulMobileHomeView: View {
             }
         }
         .navigationBarItems(
-            leading: Button(action: {
-                print("2 dots tapped")
-            }, label: {
+            leading: NavigationLink(destination: KulMobileTabloidsList(), label: {
                 Text("KUL!")
                     .font(.kmSecondaryRegular(size: 42))
                     .foregroundColor(.kmYellow)
                     .rotationEffect(.degrees(-14))
             }),
-            trailing: Button(action: {
-                print("2 dots tapped")
-            }, label: {
+            trailing: Button(action: { print("2 dots tapped") }, label: {
                 Image("Kul-Mobile_settings_icon")
             }))
     }

@@ -8,6 +8,14 @@
 import SwiftUI
 
 struct KulMobileTabloidsList: View {
+    private let itemFontColorPairs: [(Color, Color)] = [
+        (.kmOrange, .white),
+        (.kmBoldYellow, .kmDarkGreen),
+        (.white, .kmDarkBlue),
+    ]
+    
+    @ObservedObject private var dataService = KulMobileTabloidDataService()
+    
     @State var searchText = ""
     
     var body: some View {
@@ -15,11 +23,27 @@ struct KulMobileTabloidsList: View {
             Color.kmPurple
                 .edgesIgnoringSafeArea(.all)
             
-            VStack {
+            VStack(spacing: 18) {
                 KulMobileSearchBar(searchText: $searchText)
-                    .padding()
+                    .padding([.top, .horizontal])
                 
-                Spacer()
+                List {
+                    ForEach(Array(dataService.tabloids.enumerated()), id: \.1.id) { (index, tabloid) in
+                        KulMobileTabloidListItem(
+                            tabloid: tabloid,
+                            itemColor: itemFontColors(atIndex: index).0,
+                            fontColor: itemFontColors(atIndex: index).1)
+                    }
+                    .frame(height: 185)
+                    .listRowBackground(
+                        Color.clear
+                            .edgesIgnoringSafeArea(.all))
+                }
+                .listStyle(PlainListStyle())
+                .onAppear {
+                    UITableView.appearance().backgroundColor = .clear
+                    UITableViewCell.appearance().backgroundColor = .clear
+                }
             }
         }
         .toolbar {
@@ -37,6 +61,10 @@ struct KulMobileTabloidsList: View {
                 })
             }
         }
+    }
+    
+    private func itemFontColors(atIndex index: Int) -> (Color, Color) {
+        itemFontColorPairs[index]
     }
 }
 

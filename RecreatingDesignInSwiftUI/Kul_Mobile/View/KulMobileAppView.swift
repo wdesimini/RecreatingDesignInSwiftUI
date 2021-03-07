@@ -12,19 +12,23 @@ struct KulMobileAppView: View {
     
     var body: some View {
         NavigationView {
-            presentedView
-                .navigationBarItems(
-                    leading: Button(
-                        action: { isShowingTabloids.toggle() },
-                        label: {
-                            Text(isShowingTabloids ? "HOME" : "KUL!")
-                                .font(.kmSecondaryRegular(size: 42))
-                                .foregroundColor(.kmYellow)
-                                .rotationEffect(.degrees(-14)) }),
-                    trailing: Button(
-                        action: { print("2 dots tapped") },
-                        label: {
-                            Image("Kul-Mobile_settings_icon") }))
+            ZStack {
+                Color.kmPurple.edgesIgnoringSafeArea(.all)
+                
+                presentedView
+                    .navigationBarItems(
+                        leading: Button(
+                            action: { isShowingTabloids.toggle() },
+                            label: {
+                                Text(isShowingTabloids ? "HOME" : "KUL!")
+                                    .font(.kmSecondaryRegular(size: 42))
+                                    .foregroundColor(.kmYellow)
+                                    .rotationEffect(.degrees(-14)) }),
+                        trailing: Button(
+                            action: { print("2 dots tapped") },
+                            label: {
+                                Image("Kul-Mobile_settings_icon") }))
+            }
         }
     }
     

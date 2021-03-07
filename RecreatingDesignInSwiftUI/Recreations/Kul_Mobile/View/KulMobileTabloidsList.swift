@@ -18,13 +18,26 @@ struct KulMobileTabloidsList: View {
     
     @State var searchText = ""
     
+    private var filteredTabloids: [KulMobileTabloid] {
+        var result = dataService.tabloids
+        
+        if !searchText.isEmpty {
+            result = result.filter {
+                $0.category.contains(searchText)
+                || $0.headline.contains(searchText)
+            }
+        }
+        
+        return result
+    }
+    
     var body: some View {
         VStack(spacing: 18) {
             KulMobileSearchBar(searchText: $searchText)
                 .padding([.top, .horizontal])
             
             List {
-                ForEach(Array(dataService.tabloids.enumerated()), id: \.1.id) { (index, tabloid) in
+                ForEach(Array(filteredTabloids.enumerated()), id: \.1.id) { (index, tabloid) in
                     KulMobileTabloidListItem(
                         tabloid: tabloid,
                         itemColor: itemFontColors(atIndex: index).0,

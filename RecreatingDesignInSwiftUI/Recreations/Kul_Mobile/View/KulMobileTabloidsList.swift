@@ -8,12 +8,6 @@
 import SwiftUI
 
 struct KulMobileTabloidsList: View {
-    private let itemFontColorPairs: [(Color, Color)] = [
-        (.kmOrange, .white),
-        (.kmBoldYellow, .kmDarkGreen),
-        (.white, .kmDarkBlue),
-    ]
-    
     @ObservedObject private var dataService = KulMobileTabloidDataService()
     
     @State var searchText = ""
@@ -39,16 +33,11 @@ struct KulMobileTabloidsList: View {
                 .padding([.top, .horizontal])
             
             List {
-                ForEach(Array(filteredTabloids.enumerated()), id: \.1.id) { (index, tabloid) in
-                    KulMobileTabloidListItem(
-                        tabloid: tabloid,
-                        itemColor: itemFontColors(atIndex: index).0,
-                        fontColor: itemFontColors(atIndex: index).1)
-                }
-                .frame(height: 185)
-                .listRowBackground(
-                    Color.clear
-                        .edgesIgnoringSafeArea(.all))
+                ForEach(filteredTabloids) { KulMobileTabloidListItem(tabloid: $0) }
+                    .frame(height: 185)
+                    .listRowBackground(
+                        Color.clear
+                            .edgesIgnoringSafeArea(.all))
             }
             .listStyle(PlainListStyle())
             .onAppear {
@@ -71,10 +60,6 @@ struct KulMobileTabloidsList: View {
                 })
             }
         }
-    }
-    
-    private func itemFontColors(atIndex index: Int) -> (Color, Color) {
-        itemFontColorPairs[index]
     }
 }
 

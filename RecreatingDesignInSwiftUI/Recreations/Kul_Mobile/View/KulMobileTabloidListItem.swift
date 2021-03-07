@@ -9,12 +9,16 @@ import SwiftUI
 
 struct KulMobileTabloidListItem: View {
     let tabloid: KulMobileTabloid
-    let itemColor: Color
-    let fontColor: Color
+    private let itemColorPalette: (item: Color, font: Color)
+    
+    init(tabloid: KulMobileTabloid) {
+        self.tabloid = tabloid
+        self.itemColorPalette = Self.itemColorPalette(for: tabloid.category)
+    }
     
     var body: some View {
         ZStack {
-            itemColor.edgesIgnoringSafeArea(.all)
+            itemColorPalette.item.edgesIgnoringSafeArea(.all)
             
             HStack {
                 VStack(alignment: .leading, spacing: 18) {
@@ -26,10 +30,21 @@ struct KulMobileTabloidListItem: View {
                         .lineLimit(3)
                 }
                 .padding()
-                .foregroundColor(fontColor)
+                .foregroundColor(itemColorPalette.font)
                 
                 Spacer()
             }
+        }
+    }
+    
+    private static func itemColorPalette(for category: KulMobileTabloid.Category) -> (item: Color, font: Color) {
+        switch category {
+        case .news:
+            return (.kmOrange, .white)
+        case .fashion:
+            return (.kmBoldYellow, .kmDarkGreen)
+        case .entertainment:
+            return (.white, .kmDarkBlue)
         }
     }
 }
@@ -42,10 +57,7 @@ struct KulMobileTabloidListItem_Previews: PreviewProvider {
     )
     
     static var previews: some View {
-        KulMobileTabloidListItem(
-            tabloid: tabloid,
-            itemColor: .kmOrange,
-            fontColor: .white)
+        KulMobileTabloidListItem(tabloid: tabloid)
             .frame(width: 375, height: 185)
             .previewLayout(.sizeThatFits)
     }

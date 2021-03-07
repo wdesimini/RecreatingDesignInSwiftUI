@@ -8,11 +8,11 @@
 import SwiftUI
 
 extension Color {
-    static var kmPurple: Color { .init(red: 67.0 / 255.0, green: 34.0 / 255.0, blue: 81.0 / 255.0) }
-    static var kmLightTan: Color { .init(red: 255.0 / 255.0, green: 238.0 / 255.0, blue: 220.0 / 255.0) }
-    static var kmYellow: Color { .init(red: 254.0 / 255.0, green: 182.0 / 255.0, blue: 2.0 / 255.0) }
-    static var kmBoldYellow: Color { .init(red: 254.0 / 255.0, green: 182.0 / 255.0, blue: 82.0 / 255.0) }
-    static var kmOrange: Color { .init(red: 238.0 / 255.0, green: 86.0 / 255.0, blue: 44.0 / 255.0) }
-    static var kmDarkBlue: Color { .init(red: 39.0 / 255.0, green: 47.0 / 255.0, blue: 143.0 / 255.0) }
-    static var kmDarkGreen: Color { .init(red: 29.0 / 255.0, green: 45.0 / 255.0, blue: 24.0 / 255.0) }
+    static var kmPurple: Color { .init(r: 67, g: 34, b: 81) }
+    static var kmLightTan: Color { .init(r: 255, g: 238, b: 220) }
+    static var kmYellow: Color { .init(r: 254, g: 182, b: 2) }
+    static var kmBoldYellow: Color { .init(r: 254, g: 182, b: 82) }
+    static var kmOrange: Color { .init(r: 238, g: 86, b: 44) }
+    static var kmDarkBlue: Color { .init(r: 39, g: 47, b: 143) }
+    static var kmDarkGreen: Color { .init(r: 29, g: 45, b: 24) }
 }

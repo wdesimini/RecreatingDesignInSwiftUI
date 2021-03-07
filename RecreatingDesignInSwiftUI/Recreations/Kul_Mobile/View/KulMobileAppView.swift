@@ -35,11 +35,7 @@ struct KulMobileAppView: View {
     }
     
     var presentedView: AnyView {
-        if isShowingTabloids {
-            return AnyView(KulMobileTabloidsList())
-        } else {
-            return AnyView(KulMobileHomeView())
-        }
+        isShowingTabloids ? AnyView(KulMobileTabloidsList()) : AnyView(KulMobileHomeView())
     }
 }
 

@@ -17,12 +17,10 @@ struct KulMobileHomeView: View {
                     .minimumScaleFactor(0.5)
                     .foregroundColor(.kmLightTan)
                 
-                
                 ZStack(alignment: .bottomLeading) {
                     Image("Kul_Mobile_home_picture")
                         .resizable()
                         .scaledToFit()
-                        
                     
                     Text("By Teens, For Teens")
                         .font(.kmSecondaryRegular(size: 24))

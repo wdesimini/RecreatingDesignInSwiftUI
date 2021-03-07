@@ -122,7 +122,7 @@
 				CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */,
 				CF9E8BE425F321D900B8D085 /* ContentView.swift */,
 				CFA776A725F561F90063AAC6 /* Resource */,
-				CF9E8C1525F3223400B8D085 /* Kul_Mobile */,
+				CFA776AB25F5622D0063AAC6 /* Recreations */,
 				CF9E8BE625F321DC00B8D085 /* Assets.xcassets */,
 				CF9E8BEB25F321DC00B8D085 /* Info.plist */,
 				CF9E8BE825F321DC00B8D085 /* Preview Content */,
@@ -203,6 +203,14 @@
 				CFA776A225F561800063AAC6 /* Color+RGB.swift */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CFA776AB25F5622D0063AAC6 /* Recreations */ = {
+			isa = PBXGroup;
+			children = (
+				CF9E8C1525F3223400B8D085 /* Kul_Mobile */,
+			);
+			path = Recreations;
 			sourceTree = "<group>";
 		};
 		CFC0CF3D25F4373500B786F1 /* Model */ = {

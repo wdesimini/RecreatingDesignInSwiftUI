@@ -20,6 +20,7 @@
 		CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */; };
 		CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C4725F4025600B8D085 /* KulMobileSearchBar.swift */; };
 		CF9E8C5725F4137B00B8D085 /* KulMobileTabloidListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C5625F4137B00B8D085 /* KulMobileTabloidListItem.swift */; };
+		CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7769A25F55AB00063AAC6 /* KulMobileAppView.swift */; };
 		CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */; };
 		CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */; };
 		CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */; };
@@ -62,6 +63,7 @@
 		CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidsList.swift; sourceTree = "<group>"; };
 		CF9E8C4725F4025600B8D085 /* KulMobileSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileSearchBar.swift; sourceTree = "<group>"; };
 		CF9E8C5625F4137B00B8D085 /* KulMobileTabloidListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidListItem.swift; sourceTree = "<group>"; };
+		CFA7769A25F55AB00063AAC6 /* KulMobileAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileAppView.swift; sourceTree = "<group>"; };
 		CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloid.swift; sourceTree = "<group>"; };
 		CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KulMobileTabloidsJSON.json; sourceTree = "<group>"; };
 		CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidDataService.swift; sourceTree = "<group>"; };
@@ -164,6 +166,7 @@
 		CF9E8C2325F3233D00B8D085 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CFA7769A25F55AB00063AAC6 /* KulMobileAppView.swift */,
 				CF9E8C1025F3222C00B8D085 /* KulMobileHomeView.swift */,
 				CF9E8C4225F3EB6500B8D085 /* KulMobileTabloidsList.swift */,
 				CF9E8C5625F4137B00B8D085 /* KulMobileTabloidListItem.swift */,
@@ -340,6 +343,7 @@
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
 				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
+				CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */,
 				CF9E8C5725F4137B00B8D085 /* KulMobileTabloidListItem.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

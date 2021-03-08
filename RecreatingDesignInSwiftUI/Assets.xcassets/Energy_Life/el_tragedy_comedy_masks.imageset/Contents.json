@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "el_tragedy_comedy_masks.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "el_tragedy_comedy_masks@2x.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "el_tragedy_comedy_masks@3x.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

@@ -24,7 +24,7 @@ struct ELUserSnapshotView: View {
                     VStack(alignment: .leading) {
                         Text("\(user.firstName) \(user.lastName)")
                             .font(.elBoldFont(size: 17))
-                            .foregroundColor(.elPurple)
+                            .foregroundColor(.elDarkPurple)
                         
                         Spacer()
                         

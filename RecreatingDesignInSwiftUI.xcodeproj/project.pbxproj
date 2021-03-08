@@ -17,6 +17,10 @@
 		CF8A4A4425F5BD0B00C2F0CA /* ELUserSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */; };
 		CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */; };
 		CF8A4A4E25F5BF5800C2F0CA /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8A4A4D25F5BF5800C2F0CA /* Quicksand-Bold.ttf */; };
+		CF8A4A5325F6A05A00C2F0CA /* ELEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A5225F6A05A00C2F0CA /* ELEvent.swift */; };
+		CF8A4A5B25F6A07D00C2F0CA /* ELEvent+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A5A25F6A07D00C2F0CA /* ELEvent+Type.swift */; };
+		CF8A4A6025F6A11B00C2F0CA /* ELEventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A5F25F6A11B00C2F0CA /* ELEventCategory.swift */; };
+		CF8A4A7325F6A1B700C2F0CA /* ELEventCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -66,6 +70,10 @@
 		CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUserSnapshotView.swift; sourceTree = "<group>"; };
 		CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELUser+Sample.swift"; sourceTree = "<group>"; };
 		CF8A4A4D25F5BF5800C2F0CA /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		CF8A4A5225F6A05A00C2F0CA /* ELEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEvent.swift; sourceTree = "<group>"; };
+		CF8A4A5A25F6A07D00C2F0CA /* ELEvent+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELEvent+Type.swift"; sourceTree = "<group>"; };
+		CF8A4A5F25F6A11B00C2F0CA /* ELEventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventCategory.swift; sourceTree = "<group>"; };
+		CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventCategoryItem.swift; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -131,6 +139,7 @@
 		CF508DF225F5A3FB00942ECF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */,
 				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
 				CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */,
 			);
@@ -155,6 +164,9 @@
 			children = (
 				CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */,
 				CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */,
+				CF8A4A5225F6A05A00C2F0CA /* ELEvent.swift */,
+				CF8A4A5A25F6A07D00C2F0CA /* ELEvent+Type.swift */,
+				CF8A4A5F25F6A11B00C2F0CA /* ELEventCategory.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -423,14 +435,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */,
+				CF8A4A6025F6A11B00C2F0CA /* ELEventCategory.swift in Sources */,
 				CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */,
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
+				CF8A4A5325F6A05A00C2F0CA /* ELEvent.swift in Sources */,
 				CF9E8C3425F3236A00B8D085 /* KulMobile+Font.swift in Sources */,
+				CF8A4A7325F6A1B700C2F0CA /* ELEventCategoryItem.swift in Sources */,
 				CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */,
 				CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */,
 				CF9E8C1C25F322A900B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
+				CF8A4A5B25F6A07D00C2F0CA /* ELEvent+Type.swift in Sources */,
 				CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */,
 				CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */,
 				CF8A4A3B25F5BB4500C2F0CA /* ELUser.swift in Sources */,

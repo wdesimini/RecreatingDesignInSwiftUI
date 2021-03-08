@@ -26,6 +26,22 @@ struct ELHomeView: View {
                         .font(.elSemiBoldFont(size: 30))
                 }
                 
+                VStack(spacing: 20) {
+                    HStack(spacing: 20) {
+                        ELEventCategoryItem(category: .type(.professional))
+                        
+                        ELEventCategoryItem(category: .type(.social))
+                    }
+                    .frame(height: 95)
+                    
+                    HStack(spacing: 20) {
+                        ELEventCategoryItem(category: .type(.concert))
+                        
+                        ELEventCategoryItem(category: .withFriends)
+                    }
+                    .frame(height: 95)
+                }
+                
                 Spacer()
             }
             .padding(32)

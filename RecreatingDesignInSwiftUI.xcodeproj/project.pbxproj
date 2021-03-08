@@ -21,6 +21,7 @@
 		CF8A4A5B25F6A07D00C2F0CA /* ELEvent+Type.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A5A25F6A07D00C2F0CA /* ELEvent+Type.swift */; };
 		CF8A4A6025F6A11B00C2F0CA /* ELEventCategory.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A5F25F6A11B00C2F0CA /* ELEventCategory.swift */; };
 		CF8A4A7325F6A1B700C2F0CA /* ELEventCategoryItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */; };
+		CF8A4A7B25F6ABDF00C2F0CA /* ELEventSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A7A25F6ABDF00C2F0CA /* ELEventSnapshotView.swift */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -37,6 +38,7 @@
 		CFA776A325F561800063AAC6 /* Color+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA776A225F561800063AAC6 /* Color+RGB.swift */; };
 		CFA776BE25F5640F0063AAC6 /* Staatliches-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA776BD25F5640F0063AAC6 /* Staatliches-Regular.ttf */; };
 		CFA776C325F5676A0063AAC6 /* KulMobileTabloid+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA776C225F5676A0063AAC6 /* KulMobileTabloid+Category.swift */; };
+		CFB143C925F6AD7C0067C908 /* ELEventCategory+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB143C825F6AD7C0067C908 /* ELEventCategory+Color.swift */; };
 		CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */; };
 		CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */; };
 		CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */; };
@@ -74,6 +76,7 @@
 		CF8A4A5A25F6A07D00C2F0CA /* ELEvent+Type.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELEvent+Type.swift"; sourceTree = "<group>"; };
 		CF8A4A5F25F6A11B00C2F0CA /* ELEventCategory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventCategory.swift; sourceTree = "<group>"; };
 		CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventCategoryItem.swift; sourceTree = "<group>"; };
+		CF8A4A7A25F6ABDF00C2F0CA /* ELEventSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventSnapshotView.swift; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -96,6 +99,7 @@
 		CFA776A225F561800063AAC6 /* Color+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RGB.swift"; sourceTree = "<group>"; };
 		CFA776BD25F5640F0063AAC6 /* Staatliches-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Staatliches-Regular.ttf"; path = "../../../../../../../../Documents/Art/app_design/references/Kul_Mobile/Staatliches/Staatliches-Regular.ttf"; sourceTree = "<group>"; };
 		CFA776C225F5676A0063AAC6 /* KulMobileTabloid+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KulMobileTabloid+Category.swift"; sourceTree = "<group>"; };
+		CFB143C825F6AD7C0067C908 /* ELEventCategory+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELEventCategory+Color.swift"; sourceTree = "<group>"; };
 		CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloid.swift; sourceTree = "<group>"; };
 		CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KulMobileTabloidsJSON.json; sourceTree = "<group>"; };
 		CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidDataService.swift; sourceTree = "<group>"; };
@@ -139,7 +143,9 @@
 		CF508DF225F5A3FB00942ECF /* View */ = {
 			isa = PBXGroup;
 			children = (
+				CFB143C825F6AD7C0067C908 /* ELEventCategory+Color.swift */,
 				CF8A4A7225F6A1B700C2F0CA /* ELEventCategoryItem.swift */,
+				CF8A4A7A25F6ABDF00C2F0CA /* ELEventSnapshotView.swift */,
 				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
 				CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */,
 			);
@@ -436,6 +442,7 @@
 			files = (
 				CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */,
 				CF8A4A6025F6A11B00C2F0CA /* ELEventCategory.swift in Sources */,
+				CF8A4A7B25F6ABDF00C2F0CA /* ELEventSnapshotView.swift in Sources */,
 				CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */,
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
 				CF8A4A5325F6A05A00C2F0CA /* ELEvent.swift in Sources */,
@@ -445,6 +452,7 @@
 				CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */,
 				CF9E8C1C25F322A900B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
+				CFB143C925F6AD7C0067C908 /* ELEventCategory+Color.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
 				CF8A4A5B25F6A07D00C2F0CA /* ELEvent+Type.swift in Sources */,
 				CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */,

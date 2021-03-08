@@ -12,7 +12,7 @@ struct ELEventCategoryItem: View {
     
     var body: some View {
         ZStack {
-            itemColor.edgesIgnoringSafeArea(.all)
+            category.color.edgesIgnoringSafeArea(.all)
             
             HStack {
                 VStack(alignment: .leading) {
@@ -34,22 +34,6 @@ struct ELEventCategoryItem: View {
             .padding()
         }
         .cornerRadius(16)
-    }
-    
-    private var itemColor: Color {
-        switch category {
-        case .type(let eventType):
-            switch eventType {
-            case .professional:
-                return .elRed
-            case .social:
-                return .elTeal
-            case .concert:
-                return .elPurple
-            }
-        case .withFriends:
-            return .elOrange
-        }
     }
 }
 

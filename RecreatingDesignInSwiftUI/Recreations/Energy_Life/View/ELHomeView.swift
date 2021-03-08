@@ -14,13 +14,22 @@ struct ELHomeView: View {
     
     var body: some View {
         NavigationView {
-            HStack(spacing: 0) {
-                Text("Hello, ")
-                    .font(.elFont(size: 30))
+            VStack(alignment: .leading, spacing: 32) {
+                ELUserSnapshotView(user: user)
+                    .frame(height: 95)
                 
-                Text("\(user.firstName)!")
-                    .font(.elSemiBoldFont(size: 30))
+                HStack(spacing: 0) {
+                    Text("Hello, ")
+                        .font(.elFont(size: 30))
+                    
+                    Text("\(user.firstName)!")
+                        .font(.elSemiBoldFont(size: 30))
+                }
+                
+                Spacer()
             }
+            .padding(32)
+            .navigationBarTitleDisplayMode(.inline)
             .navigationBarItems(
                 leading: Button(
                     action: { print("hamburger tapped") },
@@ -39,20 +48,16 @@ struct ELHomeView: View {
                         .opacity(0.75)
                 }
             }
+            .onAppear {
+                UINavigationBar.appearance().barTintColor = .white
+                UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+            }
         }
     }
 }
 
 struct ELHomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ELHomeView(
-            user: ELUser(
-                firstName: "Amanda",
-                lastName: "Jacobs",
-                occupation: "UI/UX Designer",
-                state: "California",
-                friendsCount: 37
-            )
-        )
+        ELHomeView(user: .sample)
     }
 }

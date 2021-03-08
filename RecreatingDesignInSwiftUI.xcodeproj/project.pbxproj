@@ -14,6 +14,9 @@
 		CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */; };
 		CF508E2A25F5B8B600942ECF /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */; };
 		CF8A4A3B25F5BB4500C2F0CA /* ELUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */; };
+		CF8A4A4425F5BD0B00C2F0CA /* ELUserSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */; };
+		CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */; };
+		CF8A4A4E25F5BF5800C2F0CA /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF8A4A4D25F5BF5800C2F0CA /* Quicksand-Bold.ttf */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -60,6 +63,9 @@
 		CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
 		CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUser.swift; sourceTree = "<group>"; };
+		CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELUserSnapshotView.swift; sourceTree = "<group>"; };
+		CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELUser+Sample.swift"; sourceTree = "<group>"; };
+		CF8A4A4D25F5BF5800C2F0CA /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
+				CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -138,6 +145,7 @@
 				CF508E0F25F5B6CC00942ECF /* Quicksand-Regular.ttf */,
 				CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */,
 				CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */,
+				CF8A4A4D25F5BF5800C2F0CA /* Quicksand-Bold.ttf */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -146,6 +154,7 @@
 			isa = PBXGroup;
 			children = (
 				CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */,
+				CF8A4A4825F5BD7700C2F0CA /* ELUser+Sample.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -388,6 +397,7 @@
 				CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */,
 				CFA776BE25F5640F0063AAC6 /* Staatliches-Regular.ttf in Resources */,
 				CF508E1025F5B6CC00942ECF /* Quicksand-Regular.ttf in Resources */,
+				CF8A4A4E25F5BF5800C2F0CA /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -412,6 +422,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */,
 				CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */,
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
 				CF9E8C3425F3236A00B8D085 /* KulMobile+Font.swift in Sources */,
@@ -426,6 +437,7 @@
 				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
 				CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */,
 				CF508E0325F5A62100942ECF /* EnergyLife+Font.swift in Sources */,
+				CF8A4A4425F5BD0B00C2F0CA /* ELUserSnapshotView.swift in Sources */,
 				CF9E8C5725F4137B00B8D085 /* KulMobileTabloidListItem.swift in Sources */,
 				CFA776A325F561800063AAC6 /* Color+RGB.swift in Sources */,
 				CFA776C325F5676A0063AAC6 /* KulMobileTabloid+Category.swift in Sources */,

@@ -9,10 +9,12 @@ import SwiftUI
 
 extension Color {
     private enum ELColor {
-        case red, teal, purple, orange, darkBlue
+        case offWhite, red, teal, purple, orange, darkBlue
         
         var rgb: (r: Double, g: Double, b: Double) {
             switch self {
+            case .offWhite:
+                return (243, 247, 251)
             case .red:
                 return (252, 86, 104)
             case .teal:
@@ -32,6 +34,7 @@ extension Color {
         self.init(r: rgb.r, g: rgb.g, b: rgb.b)
     }
     
+    static var elOffWhite: Color { .init(elColor: .offWhite) }
     static var elRed: Color { .init(elColor: .red) }
     static var elTeal: Color { .init(elColor: .teal) }
     static var elPurple: Color { .init(elColor: .purple) }

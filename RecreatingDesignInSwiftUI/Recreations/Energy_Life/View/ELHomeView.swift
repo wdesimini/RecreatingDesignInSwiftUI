@@ -49,8 +49,10 @@ struct ELHomeView: View {
                 }
             }
             .onAppear {
-                UINavigationBar.appearance().barTintColor = .white
-                UINavigationBar.appearance().setBackgroundImage(UIImage(), for: .default)
+                let appearance = UINavigationBarAppearance()
+                appearance.configureWithTransparentBackground()
+                UINavigationBar.appearance().scrollEdgeAppearance = appearance
+                UINavigationBar.appearance().standardAppearance = appearance
             }
         }
     }

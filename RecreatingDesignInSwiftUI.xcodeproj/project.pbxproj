@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DE925F5A28800942ECF /* ELHomeView.swift */; };
 		CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */; };
+		CF508E0325F5A62100942ECF /* EnergyLife+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -50,6 +51,7 @@
 /* Begin PBXFileReference section */
 		CF508DE925F5A28800942ECF /* ELHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELHomeView.swift; sourceTree = "<group>"; };
 		CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Color.swift"; sourceTree = "<group>"; };
+		CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Font.swift"; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */,
+				CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -398,6 +401,7 @@
 				CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */,
 				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
 				CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */,
+				CF508E0325F5A62100942ECF /* EnergyLife+Font.swift in Sources */,
 				CF9E8C5725F4137B00B8D085 /* KulMobileTabloidListItem.swift in Sources */,
 				CFA776A325F561800063AAC6 /* Color+RGB.swift in Sources */,
 				CFA776C325F5676A0063AAC6 /* KulMobileTabloid+Category.swift in Sources */,

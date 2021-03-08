@@ -49,6 +49,9 @@
 	<key>UIAppFonts</key>
 	<array>
 		<string>Staatliches-Regular.ttf</string>
+		<string>Quicksand-Regular.ttf</string>
+		<string>Quicksand-Medium.ttf</string>
+		<string>Quicksand-SemiBold.ttf</string>
 	</array>
 </dict>
 </plist>

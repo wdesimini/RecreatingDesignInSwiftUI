@@ -10,6 +10,9 @@
 		CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DE925F5A28800942ECF /* ELHomeView.swift */; };
 		CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */; };
 		CF508E0325F5A62100942ECF /* EnergyLife+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */; };
+		CF508E1025F5B6CC00942ECF /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF508E0F25F5B6CC00942ECF /* Quicksand-Regular.ttf */; };
+		CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */; };
+		CF508E2A25F5B8B600942ECF /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -52,6 +55,9 @@
 		CF508DE925F5A28800942ECF /* ELHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELHomeView.swift; sourceTree = "<group>"; };
 		CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Color.swift"; sourceTree = "<group>"; };
 		CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Font.swift"; sourceTree = "<group>"; };
+		CF508E0F25F5B6CC00942ECF /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,6 +132,9 @@
 			children = (
 				CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */,
 				CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */,
+				CF508E0F25F5B6CC00942ECF /* Quicksand-Regular.ttf */,
+				CF508E2925F5B8B600942ECF /* Quicksand-Medium.ttf */,
+				CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -363,8 +372,11 @@
 			files = (
 				CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */,
 				CF9E8BEA25F321DC00B8D085 /* Preview Assets.xcassets in Resources */,
+				CF508E2A25F5B8B600942ECF /* Quicksand-Medium.ttf in Resources */,
 				CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */,
+				CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */,
 				CFA776BE25F5640F0063AAC6 /* Staatliches-Regular.ttf in Resources */,
+				CF508E1025F5B6CC00942ECF /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

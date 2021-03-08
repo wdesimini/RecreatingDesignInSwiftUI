@@ -115,7 +115,7 @@
 		CF508DEE25F5A28E00942ECF /* Energy_Life */ = {
 			isa = PBXGroup;
 			children = (
-				CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */,
+				CF8A4A3F25F5BC0400C2F0CA /* Model */,
 				CF508DF225F5A3FB00942ECF /* View */,
 				CF508DFB25F5A42700942ECF /* Resource */,
 			);
@@ -140,6 +140,14 @@
 				CF508E1425F5B6E300942ECF /* Quicksand-SemiBold.ttf */,
 			);
 			path = Resource;
+			sourceTree = "<group>";
+		};
+		CF8A4A3F25F5BC0400C2F0CA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A4A3A25F5BB4500C2F0CA /* ELUser.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		CF9E8BD625F321D900B8D085 = {

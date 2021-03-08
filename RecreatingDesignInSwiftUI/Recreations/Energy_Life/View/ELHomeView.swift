@@ -28,14 +28,14 @@ struct ELHomeView: View {
                 
                 VStack(spacing: 20) {
                     HStack(spacing: 20) {
-                        ELEventCategoryItem(category: .type(.professional))
+                        ELEventCategoryItem(category: .professional)
                         
-                        ELEventCategoryItem(category: .type(.social))
+                        ELEventCategoryItem(category: .social)
                     }
                     .frame(height: 95)
                     
                     HStack(spacing: 20) {
-                        ELEventCategoryItem(category: .type(.concert))
+                        ELEventCategoryItem(category: .concert)
                         
                         ELEventCategoryItem(category: .withFriends)
                     }

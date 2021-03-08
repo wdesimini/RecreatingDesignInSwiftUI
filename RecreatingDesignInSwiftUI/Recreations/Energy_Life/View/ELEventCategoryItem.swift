@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct ELEventCategoryItem: View {
-    let category: ELEventCategory
+    let category: ELEvent.Category
     
     var body: some View {
         ZStack {
@@ -26,7 +26,7 @@ struct ELEventCategoryItem: View {
                 Spacer()
                 
                 VStack {
-                    Image("\(category.imageName)")
+                    category.image
                     
                     Spacer()
                 }
@@ -39,7 +39,7 @@ struct ELEventCategoryItem: View {
 
 struct ELEventCategoryItem_Previews: PreviewProvider {
     static var previews: some View {
-        ELEventCategoryItem(category: .type(.professional))
+        ELEventCategoryItem(category: .professional)
             .previewLayout(.fixed(width: 176, height: 96))
     }
 }

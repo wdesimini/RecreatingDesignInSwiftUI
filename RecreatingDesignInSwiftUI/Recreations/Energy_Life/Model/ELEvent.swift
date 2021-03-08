@@ -8,7 +8,7 @@
 import Foundation
 
 struct ELEvent {
-    let eventType: EventType
+    let category: Category
     let title: String
     let subtitle: String
     let time: TimeInterval

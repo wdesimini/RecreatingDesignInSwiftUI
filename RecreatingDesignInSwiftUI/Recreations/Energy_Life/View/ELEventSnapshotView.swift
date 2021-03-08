@@ -8,12 +8,11 @@
 import SwiftUI
 
 struct ELEventSnapshotView: View {
-    let category: ELEventCategory
     let event: ELEvent
     
     var body: some View {
         ZStack {
-            category.color.edgesIgnoringSafeArea(.all)
+            event.category.color.edgesIgnoringSafeArea(.all)
             
             VStack {
                 HStack {
@@ -65,7 +64,7 @@ struct ELEventSnapshotView: View {
 
 struct ELEventSnapshotView_Previews: PreviewProvider {
     private static let event = ELEvent(
-        eventType: .concert,
+        category: .concert,
         title: "Scorpions",
         subtitle: "World Tour - ANGELS TOUR",
         time: Date().timeIntervalSince1970,
@@ -73,7 +72,7 @@ struct ELEventSnapshotView_Previews: PreviewProvider {
         cost: 9000
     )
     static var previews: some View {
-        ELEventSnapshotView(category: .type(.concert), event: event)
+        ELEventSnapshotView(event: event)
             .previewLayout(.fixed(width: 372, height: 296))
     }
 }

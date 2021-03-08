@@ -6,7 +6,7 @@
 //
 
 extension ELEvent {
-    enum EventType {
-        case professional, social, concert
+    enum Category {
+        case professional, social, concert, withFriends
     }
 }

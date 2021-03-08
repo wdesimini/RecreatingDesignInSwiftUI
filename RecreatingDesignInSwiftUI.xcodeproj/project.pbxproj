@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DE925F5A28800942ECF /* ELHomeView.swift */; };
+		CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */; };
 		CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */; };
 		CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8BE425F321D900B8D085 /* ContentView.swift */; };
 		CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF9E8BE625F321DC00B8D085 /* Assets.xcassets */; };
@@ -48,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		CF508DE925F5A28800942ECF /* ELHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELHomeView.swift; sourceTree = "<group>"; };
+		CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Color.swift"; sourceTree = "<group>"; };
 		CF9E8BDF25F321D900B8D085 /* RecreatingDesignInSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecreatingDesignInSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF9E8BE225F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecreatingDesignInSwiftUIApp.swift; sourceTree = "<group>"; };
 		CF9E8BE425F321D900B8D085 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -103,9 +105,26 @@
 		CF508DEE25F5A28E00942ECF /* Energy_Life */ = {
 			isa = PBXGroup;
 			children = (
-				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
+				CF508DF225F5A3FB00942ECF /* View */,
+				CF508DFB25F5A42700942ECF /* Resource */,
 			);
 			path = Energy_Life;
+			sourceTree = "<group>";
+		};
+		CF508DF225F5A3FB00942ECF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CF508DFB25F5A42700942ECF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		CF9E8BD625F321D900B8D085 = {
@@ -375,6 +394,7 @@
 				CF9E8C1C25F322A900B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
+				CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */,
 				CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */,
 				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
 				CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */,

@@ -47,6 +47,8 @@
 		CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */; };
 		CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */; };
 		CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */; };
+		EFAF255025F82AD400619EAD /* ELEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF254F25F82AD400619EAD /* ELEventView.swift */; };
+		EFAF255525F82BBD00619EAD /* ELEventTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF255425F82BBD00619EAD /* ELEventTitleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -113,6 +115,8 @@
 		CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloid.swift; sourceTree = "<group>"; };
 		CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KulMobileTabloidsJSON.json; sourceTree = "<group>"; };
 		CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidDataService.swift; sourceTree = "<group>"; };
+		EFAF254F25F82AD400619EAD /* ELEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventView.swift; sourceTree = "<group>"; };
+		EFAF255425F82BBD00619EAD /* ELEventTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +163,8 @@
 				CFB143F325F7E3B80067C908 /* ELEventHighlightsList.swift */,
 				CFB143EE25F7DD5B0067C908 /* ELEventHighlightsListItem.swift */,
 				CF8A4A7A25F6ABDF00C2F0CA /* ELEventSnapshotView.swift */,
+				EFAF255425F82BBD00619EAD /* ELEventTitleView.swift */,
+				EFAF254F25F82AD400619EAD /* ELEventView.swift */,
 				CF508DE925F5A28800942ECF /* ELHomeView.swift */,
 				CF8A4A4325F5BD0B00C2F0CA /* ELUserSnapshotView.swift */,
 			);
@@ -456,6 +462,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */,
+				EFAF255525F82BBD00619EAD /* ELEventTitleView.swift in Sources */,
 				CF8A4A7B25F6ABDF00C2F0CA /* ELEventSnapshotView.swift in Sources */,
 				CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */,
 				CFB143EF25F7DD5B0067C908 /* ELEventHighlightsListItem.swift in Sources */,
@@ -474,6 +481,7 @@
 				CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */,
 				CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */,
 				CF8A4A3B25F5BB4500C2F0CA /* ELUser.swift in Sources */,
+				EFAF255025F82AD400619EAD /* ELEventView.swift in Sources */,
 				CF9E8C4825F4025600B8D085 /* KulMobileSearchBar.swift in Sources */,
 				CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */,
 				CFB143DF25F6C58F0067C908 /* ELEvent+Highlight.swift in Sources */,

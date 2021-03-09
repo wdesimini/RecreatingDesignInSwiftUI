@@ -15,18 +15,7 @@ struct ELEventSnapshotView: View {
             event.category.color.edgesIgnoringSafeArea(.all)
             
             VStack {
-                HStack {
-                    VStack(alignment: .leading, spacing: 6) {
-                        Text("\(event.title)")
-                            .font(.elBoldFont(size: 38))
-                        
-                        Text("\(event.subtitle)")
-                            .font(.elFont(size: 15))
-                    }
-                    .foregroundColor(.white)
-                    
-                    Spacer()
-                }
+                ELEventTitleView(event: event)
                 
                 Spacer()
                 

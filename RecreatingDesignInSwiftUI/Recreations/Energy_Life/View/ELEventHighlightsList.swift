@@ -24,7 +24,7 @@ struct ELEventHighlightsList: View {
                                 isSelected: eventHighlights[i] == selectedEventHighlight)
                         }
                     )
-                    .frame(width: 135)
+//                    .frame(width: 135)
                 }
             }
         }

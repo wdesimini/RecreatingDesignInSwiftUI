@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CF2B106B25F828DB00A9E913 /* Staatliches-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CF2B106A25F828DB00A9E913 /* Staatliches-Regular.ttf */; };
 		CF508DEA25F5A28800942ECF /* ELHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DE925F5A28800942ECF /* ELHomeView.swift */; };
 		CF508DF725F5A41F00942ECF /* EnergyLife+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */; };
 		CF508E0325F5A62100942ECF /* EnergyLife+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */; };
@@ -35,7 +36,6 @@
 		CF9E8C5725F4137B00B8D085 /* KulMobileTabloidListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9E8C5625F4137B00B8D085 /* KulMobileTabloidListItem.swift */; };
 		CFA7769B25F55AB00063AAC6 /* KulMobileAppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA7769A25F55AB00063AAC6 /* KulMobileAppView.swift */; };
 		CFA776A325F561800063AAC6 /* Color+RGB.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA776A225F561800063AAC6 /* Color+RGB.swift */; };
-		CFA776BE25F5640F0063AAC6 /* Staatliches-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CFA776BD25F5640F0063AAC6 /* Staatliches-Regular.ttf */; };
 		CFA776C325F5676A0063AAC6 /* KulMobileTabloid+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFA776C225F5676A0063AAC6 /* KulMobileTabloid+Category.swift */; };
 		CFB143C925F6AD7C0067C908 /* ELEvent+CategoryViewService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB143C825F6AD7C0067C908 /* ELEvent+CategoryViewService.swift */; };
 		CFB143DA25F6C50C0067C908 /* ELEventHighlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFB143D925F6C50C0067C908 /* ELEventHighlightsView.swift */; };
@@ -67,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CF2B106A25F828DB00A9E913 /* Staatliches-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Staatliches-Regular.ttf"; sourceTree = "<group>"; };
 		CF508DE925F5A28800942ECF /* ELHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELHomeView.swift; sourceTree = "<group>"; };
 		CF508DF625F5A41F00942ECF /* EnergyLife+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Color.swift"; sourceTree = "<group>"; };
 		CF508E0225F5A62100942ECF /* EnergyLife+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "EnergyLife+Font.swift"; sourceTree = "<group>"; };
@@ -101,7 +102,6 @@
 		CF9E8C5625F4137B00B8D085 /* KulMobileTabloidListItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidListItem.swift; sourceTree = "<group>"; };
 		CFA7769A25F55AB00063AAC6 /* KulMobileAppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileAppView.swift; sourceTree = "<group>"; };
 		CFA776A225F561800063AAC6 /* Color+RGB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+RGB.swift"; sourceTree = "<group>"; };
-		CFA776BD25F5640F0063AAC6 /* Staatliches-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Staatliches-Regular.ttf"; path = "../../../../../../../../Documents/Art/app_design/references/Kul_Mobile/Staatliches/Staatliches-Regular.ttf"; sourceTree = "<group>"; };
 		CFA776C225F5676A0063AAC6 /* KulMobileTabloid+Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "KulMobileTabloid+Category.swift"; sourceTree = "<group>"; };
 		CFB143C825F6AD7C0067C908 /* ELEvent+CategoryViewService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ELEvent+CategoryViewService.swift"; sourceTree = "<group>"; };
 		CFB143D925F6C50C0067C908 /* ELEventHighlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventHighlightsView.swift; sourceTree = "<group>"; };
@@ -280,7 +280,7 @@
 				CF9E8C3325F3236A00B8D085 /* KulMobile+Font.swift */,
 				CF9E8C3825F325BC00B8D085 /* KulMobile+Color.swift */,
 				CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */,
-				CFA776BD25F5640F0063AAC6 /* Staatliches-Regular.ttf */,
+				CF2B106A25F828DB00A9E913 /* Staatliches-Regular.ttf */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -428,9 +428,9 @@
 				CF508E2A25F5B8B600942ECF /* Quicksand-Medium.ttf in Resources */,
 				CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */,
 				CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */,
-				CFA776BE25F5640F0063AAC6 /* Staatliches-Regular.ttf in Resources */,
 				CF508E1025F5B6CC00942ECF /* Quicksand-Regular.ttf in Resources */,
 				CF8A4A4E25F5BF5800C2F0CA /* Quicksand-Bold.ttf in Resources */,
+				CF2B106B25F828DB00A9E913 /* Staatliches-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -35,7 +35,7 @@ struct ELUserSnapshotView: View {
                             Circle()
                                 .frame(width: 3, height: 3)
                             
-                            Text("\(user.friendsCount) friends")
+                            Text("\(user.friends.count) friends")
                         }
                         .opacity(0.5)
                     }

@@ -59,20 +59,13 @@ struct ELEventSnapshotView: View {
             }
             .padding()
         }
+        .cornerRadius(16)
     }
 }
 
 struct ELEventSnapshotView_Previews: PreviewProvider {
-    private static let event = ELEvent(
-        category: .concert,
-        title: "Scorpions",
-        subtitle: "World Tour - ANGELS TOUR",
-        time: Date().timeIntervalSince1970,
-        location: "PALACE Stadium",
-        cost: 9000
-    )
     static var previews: some View {
-        ELEventSnapshotView(event: event)
+        ELEventSnapshotView(event: .sample)
             .previewLayout(.fixed(width: 372, height: 296))
     }
 }

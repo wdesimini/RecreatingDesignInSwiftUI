@@ -14,6 +14,7 @@ struct ELEvent {
     let time: TimeInterval
     let location: String
     let cost: Int
+    var attendees = [ELUser]()
     
     var dateDescription: String {
         let formatter = DateFormatter()

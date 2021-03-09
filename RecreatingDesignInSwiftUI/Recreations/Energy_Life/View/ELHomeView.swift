@@ -42,7 +42,7 @@ struct ELHomeView: View {
                     .frame(height: 95)
                 }
                 
-                Spacer()
+                ELEventHighlightsView(user: $user)
             }
             .padding(32)
             .navigationBarTitleDisplayMode(.inline)

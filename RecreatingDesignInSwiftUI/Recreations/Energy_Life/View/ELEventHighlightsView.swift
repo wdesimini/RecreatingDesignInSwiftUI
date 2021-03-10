@@ -18,7 +18,9 @@ struct ELEventHighlightsView: View {
                 .frame(height: 20)
             
             if let event = user.highlightedEvent(selectedEventHighlight) {
-                ELEventSnapshotView(event: event)
+                NavigationLink(destination: ELEventView(user: user, event: event)) {
+                    ELEventSnapshotView(event: event)
+                }
             }
         }
     }

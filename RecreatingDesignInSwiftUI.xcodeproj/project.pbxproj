@@ -47,6 +47,17 @@
 		CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */; };
 		CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */; };
 		CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */; };
+		EF1BE997267D5F1500B46475 /* FAOnboardingViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BE996267D5F1500B46475 /* FAOnboardingViewItem.swift */; };
+		EF1BE99F267D5F6B00B46475 /* FAOnboardingItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BE99E267D5F6B00B46475 /* FAOnboardingItemViewModel.swift */; };
+		EF1BE9EC267D63EB00B46475 /* FA+Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1BE9EB267D63EB00B46475 /* FA+Font.swift */; };
+		EF5067EA267D68E80007F578 /* BaiJamjuree-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1BE9E5267D63A600B46475 /* BaiJamjuree-Regular.ttf */; };
+		EF5067EE267D69070007F578 /* BaiJamjuree-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1BE9E0267D63A600B46475 /* BaiJamjuree-Light.ttf */; };
+		EF5067F2267D69090007F578 /* BaiJamjuree-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1BE9DC267D63A600B46475 /* BaiJamjuree-Bold.ttf */; };
+		EF5067F6267D690F0007F578 /* BaiJamjuree-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1BE9E2267D63A600B46475 /* BaiJamjuree-SemiBold.ttf */; };
+		EF5067FA267D69110007F578 /* BaiJamjuree-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EF1BE9E1267D63A600B46475 /* BaiJamjuree-Medium.ttf */; };
+		EF50680C267D6C000007F578 /* FAOnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50680B267D6C000007F578 /* FAOnboardingView.swift */; };
+		EF506814267D6C930007F578 /* FAOnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF506813267D6C930007F578 /* FAOnboardingViewModel.swift */; };
+		EF50681F267D70E50007F578 /* FAButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF50681E267D70E50007F578 /* FAButtonStyle.swift */; };
 		EFAF255025F82AD400619EAD /* ELEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF254F25F82AD400619EAD /* ELEventView.swift */; };
 		EFAF255525F82BBD00619EAD /* ELEventTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAF255425F82BBD00619EAD /* ELEventTitleView.swift */; };
 /* End PBXBuildFile section */
@@ -115,6 +126,24 @@
 		CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloid.swift; sourceTree = "<group>"; };
 		CFC0CF4925F438E000B786F1 /* KulMobileTabloidsJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = KulMobileTabloidsJSON.json; sourceTree = "<group>"; };
 		CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KulMobileTabloidDataService.swift; sourceTree = "<group>"; };
+		EF1BE996267D5F1500B46475 /* FAOnboardingViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAOnboardingViewItem.swift; sourceTree = "<group>"; };
+		EF1BE99E267D5F6B00B46475 /* FAOnboardingItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAOnboardingItemViewModel.swift; sourceTree = "<group>"; };
+		EF1BE9D4267D63A500B46475 /* ffonts.net.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = ffonts.net.txt; sourceTree = "<group>"; };
+		EF1BE9D5267D63A500B46475 /* ffonts.net.htm */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = ffonts.net.htm; sourceTree = "<group>"; };
+		EF1BE9D6267D63A500B46475 /* install-a-new-font.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = "install-a-new-font.txt"; sourceTree = "<group>"; };
+		EF1BE9D7267D63A500B46475 /* quick_tips.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = quick_tips.html; sourceTree = "<group>"; };
+		EF1BE9DC267D63A600B46475 /* BaiJamjuree-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Bold.ttf"; sourceTree = "<group>"; };
+		EF1BE9DE267D63A600B46475 /* DESCRIPTION.en_us.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = DESCRIPTION.en_us.html; sourceTree = "<group>"; };
+		EF1BE9DF267D63A600B46475 /* METADATA.pb */ = {isa = PBXFileReference; lastKnownFileType = text; path = METADATA.pb; sourceTree = "<group>"; };
+		EF1BE9E0267D63A600B46475 /* BaiJamjuree-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Light.ttf"; sourceTree = "<group>"; };
+		EF1BE9E1267D63A600B46475 /* BaiJamjuree-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Medium.ttf"; sourceTree = "<group>"; };
+		EF1BE9E2267D63A600B46475 /* BaiJamjuree-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-SemiBold.ttf"; sourceTree = "<group>"; };
+		EF1BE9E5267D63A600B46475 /* BaiJamjuree-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "BaiJamjuree-Regular.ttf"; sourceTree = "<group>"; };
+		EF1BE9E7267D63A600B46475 /* OFL.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		EF1BE9EB267D63EB00B46475 /* FA+Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "FA+Font.swift"; sourceTree = "<group>"; };
+		EF50680B267D6C000007F578 /* FAOnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAOnboardingView.swift; sourceTree = "<group>"; };
+		EF506813267D6C930007F578 /* FAOnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAOnboardingViewModel.swift; sourceTree = "<group>"; };
+		EF50681E267D70E50007F578 /* FAButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FAButtonStyle.swift; sourceTree = "<group>"; };
 		EFAF254F25F82AD400619EAD /* ELEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventView.swift; sourceTree = "<group>"; };
 		EFAF255425F82BBD00619EAD /* ELEventTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ELEventTitleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -311,6 +340,7 @@
 			isa = PBXGroup;
 			children = (
 				CF508DEE25F5A28E00942ECF /* Energy_Life */,
+				EF1BE995267D5EF300B46475 /* Fit_App */,
 				CF9E8C1525F3223400B8D085 /* Kul_Mobile */,
 			);
 			path = Recreations;
@@ -322,6 +352,71 @@
 				CFC0CF3825F4372F00B786F1 /* KulMobileTabloid.swift */,
 				CFA776C225F5676A0063AAC6 /* KulMobileTabloid+Category.swift */,
 				CFC0CF5125F4434700B786F1 /* KulMobileTabloidDataService.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EF1BE995267D5EF300B46475 /* Fit_App */ = {
+			isa = PBXGroup;
+			children = (
+				EF506804267D6BA00007F578 /* Model */,
+				EF1BE9CE267D638400B46475 /* View */,
+			);
+			path = Fit_App;
+			sourceTree = "<group>";
+		};
+		EF1BE9CE267D638400B46475 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EF50681E267D70E50007F578 /* FAButtonStyle.swift */,
+				EF50680B267D6C000007F578 /* FAOnboardingView.swift */,
+				EF1BE996267D5F1500B46475 /* FAOnboardingViewItem.swift */,
+				EF1BE9D2267D639E00B46475 /* Font */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EF1BE9D2267D639E00B46475 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BE9EB267D63EB00B46475 /* FA+Font.swift */,
+				EF1BE9D3267D63A500B46475 /* Bai-Jamjuree-Bold */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		EF1BE9D3267D63A500B46475 /* Bai-Jamjuree-Bold */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BE9D8267D63A600B46475 /* baijamjuree */,
+				EF1BE9D5267D63A500B46475 /* ffonts.net.htm */,
+				EF1BE9D4267D63A500B46475 /* ffonts.net.txt */,
+				EF1BE9D6267D63A500B46475 /* install-a-new-font.txt */,
+				EF1BE9D7267D63A500B46475 /* quick_tips.html */,
+			);
+			path = "Bai-Jamjuree-Bold";
+			sourceTree = "<group>";
+		};
+		EF1BE9D8267D63A600B46475 /* baijamjuree */ = {
+			isa = PBXGroup;
+			children = (
+				EF1BE9E0267D63A600B46475 /* BaiJamjuree-Light.ttf */,
+				EF1BE9E5267D63A600B46475 /* BaiJamjuree-Regular.ttf */,
+				EF1BE9E1267D63A600B46475 /* BaiJamjuree-Medium.ttf */,
+				EF1BE9E2267D63A600B46475 /* BaiJamjuree-SemiBold.ttf */,
+				EF1BE9DC267D63A600B46475 /* BaiJamjuree-Bold.ttf */,
+				EF1BE9DE267D63A600B46475 /* DESCRIPTION.en_us.html */,
+				EF1BE9DF267D63A600B46475 /* METADATA.pb */,
+				EF1BE9E7267D63A600B46475 /* OFL.txt */,
+			);
+			path = baijamjuree;
+			sourceTree = "<group>";
+		};
+		EF506804267D6BA00007F578 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EF506813267D6C930007F578 /* FAOnboardingViewModel.swift */,
+				EF1BE99E267D5F6B00B46475 /* FAOnboardingItemViewModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -430,13 +525,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				CFC0CF4A25F438E000B786F1 /* KulMobileTabloidsJSON.json in Resources */,
+				EF5067F2267D69090007F578 /* BaiJamjuree-Bold.ttf in Resources */,
 				CF9E8BEA25F321DC00B8D085 /* Preview Assets.xcassets in Resources */,
 				CF508E2A25F5B8B600942ECF /* Quicksand-Medium.ttf in Resources */,
 				CF9E8BE725F321DC00B8D085 /* Assets.xcassets in Resources */,
+				EF5067EA267D68E80007F578 /* BaiJamjuree-Regular.ttf in Resources */,
 				CF508E1525F5B6E300942ECF /* Quicksand-SemiBold.ttf in Resources */,
+				EF5067F6267D690F0007F578 /* BaiJamjuree-SemiBold.ttf in Resources */,
 				CF508E1025F5B6CC00942ECF /* Quicksand-Regular.ttf in Resources */,
+				EF5067FA267D69110007F578 /* BaiJamjuree-Medium.ttf in Resources */,
 				CF8A4A4E25F5BF5800C2F0CA /* Quicksand-Bold.ttf in Resources */,
 				CF2B106B25F828DB00A9E913 /* Staatliches-Regular.ttf in Resources */,
+				EF5067EE267D69070007F578 /* BaiJamjuree-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -462,6 +562,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8A4A4925F5BD7700C2F0CA /* ELUser+Sample.swift in Sources */,
+				EF1BE9EC267D63EB00B46475 /* FA+Font.swift in Sources */,
+				EF50680C267D6C000007F578 /* FAOnboardingView.swift in Sources */,
 				EFAF255525F82BBD00619EAD /* ELEventTitleView.swift in Sources */,
 				CF8A4A7B25F6ABDF00C2F0CA /* ELEventSnapshotView.swift in Sources */,
 				CFC0CF5225F4434700B786F1 /* KulMobileTabloidDataService.swift in Sources */,
@@ -469,12 +571,15 @@
 				CF9E8BE525F321D900B8D085 /* ContentView.swift in Sources */,
 				CF8A4A5325F6A05A00C2F0CA /* ELEvent.swift in Sources */,
 				CF9E8C3425F3236A00B8D085 /* KulMobile+Font.swift in Sources */,
+				EF50681F267D70E50007F578 /* FAButtonStyle.swift in Sources */,
 				CF8A4A7325F6A1B700C2F0CA /* ELEventCategoryItem.swift in Sources */,
 				CFC0CF3925F4372F00B786F1 /* KulMobileTabloid.swift in Sources */,
+				EF506814267D6C930007F578 /* FAOnboardingViewModel.swift in Sources */,
 				CFB143DA25F6C50C0067C908 /* ELEventHighlightsView.swift in Sources */,
 				CF9E8C4325F3EB6500B8D085 /* KulMobileTabloidsList.swift in Sources */,
 				CF9E8C1C25F322A900B8D085 /* KulMobileHomeView.swift in Sources */,
 				CF9E8BE325F321D900B8D085 /* RecreatingDesignInSwiftUIApp.swift in Sources */,
+				EF1BE997267D5F1500B46475 /* FAOnboardingViewItem.swift in Sources */,
 				CFB143C925F6AD7C0067C908 /* ELEvent+CategoryViewService.swift in Sources */,
 				CF9E8C3925F325BC00B8D085 /* KulMobile+Color.swift in Sources */,
 				CF8A4A5B25F6A07D00C2F0CA /* ELEvent+Category.swift in Sources */,
@@ -492,6 +597,7 @@
 				CFA776C325F5676A0063AAC6 /* KulMobileTabloid+Category.swift in Sources */,
 				CFB143F925F7E52C0067C908 /* ELEvent+Sample.swift in Sources */,
 				CFB143E725F7D5D80067C908 /* ELUser+HighlightedEvent.swift in Sources */,
+				EF1BE99F267D5F6B00B46475 /* FAOnboardingItemViewModel.swift in Sources */,
 				CFB143F425F7E3B80067C908 /* ELEventHighlightsList.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
